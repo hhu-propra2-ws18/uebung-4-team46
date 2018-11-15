@@ -6,6 +6,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
+import java.awt.*;
 
 @Data
 @Entity
@@ -18,7 +19,7 @@ public class Auto{
     private Kunde besitzer;
 
     private String marke;
-    private String farbe;
+    private Color farbe;
     private int hubraum;
 
 }
