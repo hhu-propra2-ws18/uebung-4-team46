@@ -18,5 +18,4 @@ public class Kunde {
 
     @OneToMany(cascade = CascadeType.ALL)
     List<Auto> autos;
-    // TODO: Hier muss irgendetwas mit Autos hin...
 }
